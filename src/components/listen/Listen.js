@@ -4,7 +4,7 @@ import './listen.css'
 
 export default function Listen() {
 
-  const [isListenLoading, setIsListenLoading] = useState(false);
+  //const [isListenLoading, setIsListenLoading] = useState(false);
   const [listenContent, setListenContent] = useState({});
 
 
@@ -23,7 +23,7 @@ export default function Listen() {
 
     }
     catch(error){
-        console.log(error) //need better err handling
+        console.log(error) 
     }
 }
 
@@ -48,7 +48,7 @@ useEffect(()=>{
             >
               <p>
                 <br></br>
-                Scroll down to listen on You Tube.  Stay tuned for more musical content coming your way soon!
+                {/* Scroll down to listen on You Tube.  Stay tuned for more musical content coming your way soon! */}
                 <br></br>
                 <br></br>
               </p>

@@ -11,10 +11,6 @@ export default function ContactForm(props) {
     }
 
   return (
-    // <div
-    //     className="contactFormBig"
-    //     style={{display: `${props.state}`}}
-    // >
         <div
             className="contactFormParent"
             style={{display: `${props.state}`}}
@@ -54,7 +50,6 @@ export default function ContactForm(props) {
             </form>
             
         </div>
-    // </div>
   )
   
 }

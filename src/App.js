@@ -32,7 +32,3 @@ function App() {
 
 export default App;
 
-
-//make modal bogger on larger screen sizes?
-//why isn't netlify forms emailing her the messages?
-//how to use material ui

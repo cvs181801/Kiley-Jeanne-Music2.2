@@ -20,12 +20,8 @@ body {
     background-blend-mode: multiply;
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .listenInnerContainer {
@@ -33,7 +29,6 @@ body {
     border-radius: 7px; 
     text-align: center;
     height: auto;  
-    /*height: 50vw;*/
     width: 90vw;
     margin: 0 auto;
     color: var(--backgroundColor);
@@ -46,11 +41,9 @@ body {
     .listenInnerContainer {
         margin: 0 auto;
         width: 90vw;
-        /*height: 30vw;*/
+
     }
 }
 @media (min-width: 1025px) {
-    /*.listenInnerContainer {
-        height: 25vw;
-    }*/
+
 }
